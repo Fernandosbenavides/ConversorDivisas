@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(4, 4, 55);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 2rem, auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  width: 100px;
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+h2,
+p {
+  font-size: 1rem;
+  margin: 0, 5rem 0;
+}
+
+form img {
+  width: 40px;
+  margin-top: 10px;
+}
+
+.graphic {
+  width: 65%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+form {
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+  border: 2px solid white
+}
+
+
+input,
+select {
+  width: 60%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #fffefeec;
+}
+
+
+button {
+  width: 40%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.cambio {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  font-size: 1rem;
+  color: white;
+}
+
+.cambio h3 {
+  margin: 0 1rem;
+}

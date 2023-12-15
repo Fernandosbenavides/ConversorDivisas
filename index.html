@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="shortcut icon" href="assets/img/conversor.png" type="image/x-icon">
+  <title>Conversor de monedas</title>
+</head>
+
+<body>
+  <h1>Conversor de Moneda</h1>
+  <img src="assets/img/conversor.png" alt="">
+  <div class="container">
+    <form id="convertidor" class="box">
+      <h2>Pesos Chilenos</h2>
+      <img src="assets/img/chile.png" alt="">
+      <input type="text" name="valor" />
+      <p>Moneda a convertir</p>
+      <img src="assets/img/divisa.png" alt="">
+      <select name="moneda">
+        <option value="">Elija el cambio</option>
+        <option value="dolar">Dolar</option>
+        <option value="euro">Euro</option>
+        <option value="uf">UF</option>
+      </select>
+      <button type="submit" class="buscar">Buscar</button>
+      <div class="cambio">
+        <h3>Cambio:</h3>
+        <h3 id="total-valor"></h3>
+      </div>
+    </form>
+  </div>
+  <div class="graphic">
+    <canvas id="myChart"></canvas>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
